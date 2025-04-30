@@ -84,8 +84,8 @@ You can deploy this ASP.NET Core Bookstore application to many hosting services.
 ## Project Structure
 Below is an overview of the repository’s folder structure:
 
-aspnetcore-bookstore/__
-│__
+aspnetcore-bookstore/ <br />
+│ <br />
 ├── Areas/               # Contains scaffolder Identity UI pages (e.g., Login, Register) < br / >
 │   └── Identity/ < br / >
 │       └── Pages/ < br / >
