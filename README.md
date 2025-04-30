@@ -84,20 +84,20 @@ You can deploy this ASP.NET Core Bookstore application to many hosting services.
 ## Project Structure
 Below is an overview of the repository’s folder structure:
 
-aspnetcore-bookstore/
-│
-├── Areas/               # Contains scaffolder Identity UI pages (e.g., Login, Register)
-│   └── Identity/
-│       └── Pages/
-│           └── Account/
-├── Controllers/         # MVC Controllers (e.g., BooksController.cs)
-├── Data/                # EF Core DbContext and migrations (e.g., BookstoreContext.cs)
-├── Filters/             # Custom filters (e.g., RequestLoggingFilter.cs)
-├── Models/              # Model classes (e.g., Book.cs)
-├── Views/               # MVC Views and layouts (e.g., _Layout.cshtml)
-│   └── Shared/
-│       └── _Layout.cshtml
-├── wwwroot/             # Static files (CSS, JS, images)
-├── appsettings.json     # Application configuration and connection strings
-├── Program.cs           # Application startup and middleware configuration
-└── README.md            # This file
+aspnetcore-bookstore/< br / >
+│< br / >
+├── Areas/               # Contains scaffolder Identity UI pages (e.g., Login, Register)< br / >
+│   └── Identity/< br / >
+│       └── Pages/< br / >
+│           └── Account/< br / >
+├── Controllers/         # MVC Controllers (e.g., BooksController.cs)< br / >
+├── Data/                # EF Core DbContext and migrations (e.g., BookstoreContext.cs)< br / >
+├── Filters/             # Custom filters (e.g., RequestLoggingFilter.cs)< br / >
+├── Models/              # Model classes (e.g., Book.cs)< br / >
+├── Views/               # MVC Views and layouts (e.g., _Layout.cshtml)< br / >
+│   └── Shared/< br / >
+│       └── _Layout.cshtml< br / >
+├── wwwroot/             # Static files (CSS, JS, images)< br / >
+├── appsettings.json     # Application configuration and connection strings< br / >
+├── Program.cs           # Application startup and middleware configuration< br / >
+└── README.md            # This file< br / >
