@@ -1,0 +1,16 @@
+﻿@*
+    Views/Home/Index.cshtml
+*@
+@{
+    ViewData["Title"] = "Welcome to Our Bookstore";
+}
+
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Our Bookstore!</h1>
+        <p class="lead">Explore a curated collection of books. Whether you're looking to add to your library or find your next great read, our application lets you browse, add, update, and delete books with ease.</p>
+        <hr class="my-4" />
+        <p>Get started by browsing our book collection.</p>
+        <a class="btn btn-primary btn-lg" asp-controller="Books" asp-action="Index">Browse Books</a>
+    </div>
+</div>
